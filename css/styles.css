@@ -492,7 +492,7 @@ header {
   background-color: #31d0aa;
 }
 
-.footer-whole{
+.footer-inner{
   display: flex;
   align-items: baseline;
 }
