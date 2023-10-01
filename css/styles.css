@@ -213,6 +213,7 @@ body {
 .footer-class {
   background-color: #2e2f42;
   padding: 100px 0;
+  
 }
 
 .footer-logo {
@@ -492,7 +493,7 @@ header {
   background-color: #31d0aa;
 }
 
-.footer-inner{
+.footer-whole{
   display: flex;
   align-items: baseline;
 }
