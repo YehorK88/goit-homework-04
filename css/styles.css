@@ -94,6 +94,7 @@ body {
   padding: 188px 0;
 
   background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/people-office.jpeg);
+  max-width: 1440px;
   background-repeat: no-repeat; 
   background-position: center;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1); 
@@ -357,6 +358,11 @@ header {
   border-top: none;
 }
 
+.apps-name-category:hover{
+  transform: translateY(0%);
+}
+
+
 .nav-links .nav-list-links{
   position: relative;
   color: #404bbf;
@@ -400,7 +406,7 @@ header {
 .media-icon{
   width: 40px;
   height: 40px; 
-  background-color: 250ms cubic-bezier(0.4, 0, 0.2, 1); 
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1); 
 }
 
 .media-link{
@@ -445,9 +451,7 @@ header {
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.apps-par:hover{
-  transform: translateY(0%);
-}
+
 
 
 .footer-cont{
