@@ -358,10 +358,11 @@ header {
   border-top: none;
 }
 
-.apps-name-category:hover{
+
+
+.product-type{
   transform: translateY(0%);
 }
-
 
 .nav-links .nav-list-links{
   position: relative;
@@ -406,7 +407,7 @@ header {
 .media-icon{
   width: 40px;
   height: 40px; 
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1); 
+  transition:background-color 250ms cubic-bezier(0.4, 0, 0.2, 1); 
 }
 
 .media-link{
